@@ -36,7 +36,8 @@ class AppDistanceCalcTests: XCTestCase {
             // As distâncias reais podem variar um pouco por arredondamento e modelo da Terra
             XCTAssertEqual(distances[0], 865.6, accuracy: 5.0) // Aproximadamente Brasília-SP
             XCTAssertEqual(distances[1], 928.8, accuracy: 5.0) // Aproximadamente Brasília-RJ
-            print(distances)
+            print("A distância de Brasília a São Paulo é: ", distances[0])
+            print("A distância de Brasília a Rio de Janeiro é: ", distances[1])
     }
 
 }
