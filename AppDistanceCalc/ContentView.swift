@@ -2,22 +2,19 @@
 //  ContentView.swift
 //  AppDistanceCalc
 //
-//  Created by João Víctor Benetti Filipim on 27/06/25.
+//  Created by João Víctor Benetti Filipim on 28/06/25.
 //
 
 import UIKit
 
-class ContentView: UITableViewCell {
+class ContentView: UIView {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    /*
+    // Only override draw() if you perform custom drawing.
+    // An empty implementation adversely affects performance during animation.
+    override func draw(_ rect: CGRect) {
+        // Drawing code
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+    */
 
 }
