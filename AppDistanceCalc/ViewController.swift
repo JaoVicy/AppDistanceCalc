@@ -9,13 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
     @IBOutlet weak var latitudeInput: UITextField!
-    
     @IBOutlet weak var longitudeInput: UITextField!
-    
     @IBOutlet weak var submitButton: UIButton!
-    
+    @IBOutlet weak var resultLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         

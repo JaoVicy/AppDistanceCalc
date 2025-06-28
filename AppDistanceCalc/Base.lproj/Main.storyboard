@@ -78,6 +78,7 @@
                     <connections>
                         <outlet property="latitudeInput" destination="5Yf-Hh-at3" id="hQ9-09-kM2"/>
                         <outlet property="longitudeInput" destination="gd3-0E-H5L" id="cbm-78-XTG"/>
+                        <outlet property="resultLabel" destination="8iq-vC-HbY" id="jzC-XI-pul"/>
                         <outlet property="submitButton" destination="T3I-qs-VXs" id="4Gl-gu-YEm"/>
                     </connections>
                 </viewController>
