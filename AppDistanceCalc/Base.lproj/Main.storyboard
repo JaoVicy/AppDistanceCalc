@@ -54,10 +54,10 @@
                                     <action selector="submitButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aRE-lf-ftN"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Content View" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8iq-vC-HbY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Content View" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8iq-vC-HbY">
                                 <rect key="frame" x="30" y="582" width="332" height="215"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="10"/>
+                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="12"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -66,6 +66,7 @@
                         <color key="backgroundColor" red="0.054901960784313725" green="0.12941176470588234" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="3dw-Fo-BAR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="748-Eh-lgV"/>
+                            <constraint firstItem="k7M-i8-6px" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="7ya-lT-YZb"/>
                             <constraint firstItem="fwY-Xu-Jvx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="Baj-fj-XNP"/>
                             <constraint firstItem="5Yf-Hh-at3" firstAttribute="leading" secondItem="fwY-Xu-Jvx" secondAttribute="trailing" constant="25" id="Dr0-ex-IjA"/>
                             <constraint firstItem="k7M-i8-6px" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="EQ2-35-Dj8"/>
