@@ -51,6 +51,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Apply"/>
                             </button>
+
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.054901960784313725" green="0.12941176470588234" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -68,6 +69,12 @@
                             <constraint firstItem="gd3-0E-H5L" firstAttribute="centerY" secondItem="3dw-Fo-BAR" secondAttribute="centerY" id="tai-7m-ZOW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="latitudeInput" destination="5Yf-Hh-at3" id="hQ9-09-kM2"/>
+                        <outlet property="longitudeInput" destination="gd3-0E-H5L" id="cbm-78-XTG"/>
+                        <outlet property="resultLabel" destination="8iq-vC-HbY" id="jzC-XI-pul"/>
+                        <outlet property="submitButton" destination="T3I-qs-VXs" id="4Gl-gu-YEm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
