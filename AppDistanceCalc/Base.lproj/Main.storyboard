@@ -50,8 +50,18 @@
                                 <color key="backgroundColor" red="0.28235294119999998" green="0.2274509804" blue="0.62745098040000002" alpha="0.45881622519999998" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Apply"/>
+                                <connections>
+                                    <action selector="submitButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aRE-lf-ftN"/>
+                                </connections>
                             </button>
 
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Content View" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8iq-vC-HbY">
+                                <rect key="frame" x="30" y="582" width="332" height="215"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="10"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.054901960784313725" green="0.12941176470588234" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -70,7 +80,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="latitudeInput" destination="5Yf-Hh-at3" id="hQ9-09-kM2"/>
+                        <outlet property="latitudeInput" destination="5Yf-Hh-at3" id="lfi-Fh-ZsK"/>
                         <outlet property="longitudeInput" destination="gd3-0E-H5L" id="cbm-78-XTG"/>
                         <outlet property="resultLabel" destination="8iq-vC-HbY" id="jzC-XI-pul"/>
                         <outlet property="submitButton" destination="T3I-qs-VXs" id="4Gl-gu-YEm"/>
