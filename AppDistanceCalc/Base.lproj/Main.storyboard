@@ -50,6 +50,9 @@
                                 <color key="backgroundColor" red="0.28235294119999998" green="0.2274509804" blue="0.62745098040000002" alpha="0.45881622519999998" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Apply"/>
+                                <connections>
+                                    <action selector="submitButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aRE-lf-ftN"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Content View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8iq-vC-HbY">
                                 <rect key="frame" x="134" y="663" width="153" height="135"/>
