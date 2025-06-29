@@ -66,7 +66,7 @@ class ViewController: UIViewController {
         // Label:
         
         resultLabel.layer.borderColor = UIColor.white.cgColor
-        resultLabel.layer.borderWidth = 2
+        resultLabel.layer.borderWidth = 1
         resultLabel.layer.cornerRadius = 8
         resultLabel.layer.masksToBounds = true
     }
