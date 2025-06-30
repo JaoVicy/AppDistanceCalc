@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        configuraLayout()
     }
     
     @IBAction func submitButtonTapped(_ sender: UIButton) {
@@ -55,5 +56,18 @@ class ViewController: UIViewController {
         // Limpa os campos para o próximo ponto
         latitudeInput.text = ""
         longitudeInput.text = ""
+    }
+    
+    //MARK: - configuraLayout
+    func configuraLayout() {
+        // Botão:
+        submitButton.layer.cornerRadius = 8
+        
+        // Label:
+        
+        resultLabel.layer.borderColor = UIColor.white.cgColor
+        resultLabel.layer.borderWidth = 1
+        resultLabel.layer.cornerRadius = 8
+        resultLabel.layer.masksToBounds = true
     }
 }
